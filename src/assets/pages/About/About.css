@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.CreatCard{
+    padding: 180px 0;
+}
+.CreatCard-all{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+.CreatCard-row >h1{
+    width: 508px;
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    
+}
+.CreatCard-row >p{
+    width: 510px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 10px;
+    
+}
+.btn1{
+    border: none;
+    color: white;
+}
+.CreatCard-row >img{
+    width: 716px;
+    height: 500px;
+    top: 176px;
+    left: 984px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;
+    
+}
+
+
+
+
+.CreatCard-btn{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 120px 0;
+    flex-wrap: wrap;
+    gap: 240px;
+}
+.CreatCard-all1 >h1{
+    width: 500px;
+    height: 132px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    
+}
+.CreatCard-all1 >p{
+    width: 500px;
+    height: 102px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    
+}
+
+
+
+.CreatCard-row-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: -40px;
+}
+
+.CreatCard-row-all1{
+    width: 264px;
+    height: 192px;
+    padding: 0px 10px;
+    transition: all .2s linear;
+     
+}
+.CreatCard-row-all1:hover{
+    box-shadow: 2px 2px 5px 2px rgb(235, 235, 235);
+    transform: scale(1.075);
+    /* transform: rotate(-4deg); */
+}
+.CreatCard-row-all1:nth-child(1):hover{
+    transform: rotate(-4deg);
+}
+.CreatCard-row-all1:nth-child(2):hover{
+    transform: rotate(4deg);
+}
+.CreatCard-row-all1:nth-child(3):hover{
+    transform: rotate(4deg);
+}
+.CreatCard-row-all1:nth-child(4):hover{
+    transform: rotate(-4deg);
+}
+.CreatCard-row-all1 >h1{
+    font-family: Inter;
+font-size: 36px;
+font-weight: 700;
+line-height: 50px;
+text-align: left;
+color: #F58A07;
+
+}
+.CreatCard-row-all1 >h3{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 25.56px;
+letter-spacing: -0.03em;
+text-align: left;
+padding: 10px 0;
+
+}
+.CreatCard-row-all1 >p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+}
+
+.section1{
+    margin-top: -280px;
+
+
+}
+.footir-1{
+   margin-top: 80px ;
+}
+@media(max-width:770px){
+
+    .CreatCard-row >img{
+        max-width: 800px;
+        width: 100%;
+        padding: 0 10px;
+    }
+}@media(max-width:550px){
+
+    .CreatCard-btn{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        padding: 50px 0;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+    .CreatCard-row >h1{
+        max-width: 508px;
+        width: 100%;
+        font-family: Poppins;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 52px;
+        letter-spacing: -0.03em;
+        text-align: center;
+        padding:  0 10px;
+
+        
+    }
+    .CreatCard-row >p{
+        max-width: 510px;
+        width: 100%;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-top: 10px;
+        padding:  0 10px;
+        text-align: center;
+
+        
+    }
+
+    .CreatCard-btn{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        padding: 120px 0;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .CreatCard-all1 >h1{
+        max-width: 500px;
+        width: 100%;
+        height: 132px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.03em;
+        text-align: center;
+        
+    }
+    .CreatCard-all1 >p{
+        max-width: 500px;
+        width: 100%;
+        height: 102px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        
+    }
+    .CreatCard-row >img{
+        max-width: 800px;
+        width: 100%;
+        height: 400px;
+        padding: 0 10px;
+    }
+}
+@media(max-width:450px)
+{
+    .CreatCard-row >img{
+        max-width: 800px;
+        width: 100%;
+        height: 400px;
+        padding: 0 10px;
+    }
+}

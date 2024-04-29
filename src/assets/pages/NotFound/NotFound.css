@@ -1,0 +1,16 @@
+
+.Arr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+  .Arr >h6{
+    font-size: 40px;
+    margin-top: 15%;
+  } 
+  .Arr >img{
+    max-width: 600px;
+    width: 100%;
+  }
